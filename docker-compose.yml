@@ -34,7 +34,6 @@ services:
 volumes:
   mysql-data:
     driver: local
-    external: true
   drupal-config:
     driver: local
   drupal-modules:
